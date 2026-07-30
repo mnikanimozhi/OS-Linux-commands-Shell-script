@@ -30,6 +30,9 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+## OUTPUT:
+<img width="365" height="147" alt="image" src="https://github.com/user-attachments/assets/6dede1cc-a870-49a2-82f0-f3da15a72ec0" />
+
 cat > file2
 ```
 anil aggarwal
@@ -39,11 +42,13 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+## OUTPUT:
+<img width="355" height="175" alt="image" src="https://github.com/user-attachments/assets/4a75735a-da50-4a17-a4bf-58be5c335b24" />
+
 ### Display the content of the files
 cat < file1
-## OUTPUT
-
-
+## OUTPUT:
+<img width="352" height="152" alt="image" src="https://github.com/user-attachments/assets/7db548bb-c261-497f-bff2-c7c68403df65" />
 
 cat < file2
 ## OUTPUT
