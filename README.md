@@ -31,8 +31,7 @@ sumit chakrobarty
 ^d
 ```
 ## OUTPUT:
-![alt text](image-1.png)
-
+![Alt text](image/image30.png)
 cat > file2
 ```
 anil aggarwal
