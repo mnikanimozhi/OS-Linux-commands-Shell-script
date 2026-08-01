@@ -1028,7 +1028,7 @@ $ ./exread.sh
 ## OUTPUT
 ![Alt text](image/img1017.png) 
 
-cat funcex.sh
+cat > funcex.sh
 ```bash
 #!/bin/bash
 # trying to access script parameters inside a function
@@ -1043,14 +1043,15 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+./funcex.sh 
 ## OUTPUT
- ./funcex.sh 
+![Alt text](image/img1048.png)
 
- 
  ./funcex.sh 1 2
-
+ ## OUTPUT
+![Alt text](image/img1052.png)
  
-cat argshift.sh
+cat > argshift.sh
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1059,11 +1060,12 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+![Alt text](image/img1066.png)
  
- cat argshift1.sh
+ cat > argshift1.sh
 ```bash
  #/bin/bash 
  # store arguments in a special array 
@@ -1077,10 +1079,14 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
  
-cat argshift.sh
+ ## OUTPUT
+![Alt text](image/img1086.png)
+
+
+cat > argshift.sh
 ```bash
 #!/bin/bash 
 set -x 
@@ -1092,7 +1098,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+![Alt text](image/img1101.png) 
  
 cat > nc.awk
 ```bash
@@ -1123,7 +1129,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+![Alt text](image/img1132.png) 
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1150,7 +1157,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![Alt text](image/img1160.png)
 
 # RESULT:
 The Commands are executed successfully.
